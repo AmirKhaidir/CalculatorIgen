@@ -12,10 +12,10 @@ The calculation is calculated using the BODMAS principle.
 2. Calculate multiply or divide (left to right)
 3. Calculate add or substract (left to right)
 
-First the program will have while loop until the all the calculation is completed.
-Inside the loop we will have another loop to scan the given string
-First it will try to check for bracket, if it found it will perform a sub list of the equation in the brackets and will call the function again to calculate it. (Recursive)
-Second, it will try to check for multiply or division, if it found it will calculate which ever come first
+First the program will have while loop until the all the calculation is completed.\
+Inside the loop we will have another loop to scan the given string.\
+First it will try to check for bracket, if it found it will perform a sub list of the equation in the brackets and will call the function again to calculate it. (Recursive)\
+Second, it will try to check for multiply or division, if it found it will calculate which ever come first\
 Lastly, it will check for addition and substract, if it found it will calculate which ever come first.
 
 After the calcuation is done it will replace the first digit, operator and second digit of the calcuation to the result and then continue
